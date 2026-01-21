@@ -8,4 +8,4 @@ Em breve, planejo implementar os botões de Shuffle e Repeat e remodular o desig
 
 Feito por Tiago Costa
 Email: alvescosta129616@gmail.com
-LinkedIn: tiagocostadev
+LinkedIn: www.linkedin.com/in/tiagocostadev
