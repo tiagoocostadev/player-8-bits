@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-player.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <title>Play.er</title>
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="play.er">
+                <h1>Play.er</h1>
+            </div>
+
+            <nav class="navbar">
+                <a href="./index-login.html">Login</a>
+            </nav>
+
+            <div id="search-bar">
+            <div class="input-group">
+                <div class="input-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <input  
+                    id="search" 
+                    type="text" 
+                    class="input-field" 
+                    placeholder="Search here..."
+                >
+            </div>
+        </div>
+
+            
+        </header>
+
+        <div id="music-player">
+            <img id="song-image" src="./images-album/album1.jpg" >
+            <div id="song-name" class="song-title">Song</div>
+            <div id="song-artist" class="artist-title">Artist</div>
+
+            <input id="slider-song" type="range">
+
+            <div id="music-buttons">
+                <i id="prev-song" class="fa-solid fa-backward-step fa-2x"></i>
+                <i id="playpause-song" class="fa-solid fa-circle-play fa-3x"></i>
+                <i id="next-song" class="fa-solid fa-forward-step fa-2x"></i>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <p>2026 | Todos os Direitos Reservados.</p>
+        </footer>
+
+        <script src="music-player.js"></script>
+    </body>
+
+</html>
